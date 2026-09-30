@@ -6,14 +6,12 @@ public class TisdagsSwitch3 {
     static void main() {
         //Skapa en enkel kalkylator som tar emot två tal
         //Använd Scanner och spara två tal från konsolen i var sin variabel
-
         Scanner scan = new Scanner(System.in);
 
-        int number1 = Integer.parseInt(scan.nextLine()),
-                number2 = Integer.parseInt(scan.nextLine());
-
         // och en operation (addition, subtraktion, multiplikation, division)
+        int number1 = Integer.parseInt(scan.nextLine());
         String operator = scan.nextLine();
+        int number2 = Integer.parseInt(scan.nextLine());
 
         switch(operator) {
             // Läs in + - * / (add, sub, mul, div)
